@@ -1,0 +1,4 @@
+this is just for references i dont know
+-cd venv
+-cd Scripts
+-activate.bat
