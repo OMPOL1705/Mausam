@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Lato:ital@1&family=Shantell+Sans:wght@300&family=Signika&family=Tilt+Neon&display=swap');
+
+.earth-container {
+    width: 400px;
+    height: 400px;
+    perspective: 1000px;
+    cursor: grab;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.earth-container img{
+    width: 113%;
+    height: 119%;
+}
+
+
+
+
+.earth {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.earth img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotateY(180deg);
+}
+
+.cont{
+    display: flex;
+    flex-direction: row;
+    margin-left: 12vw;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 35px;
+}
+
+.cont2{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1{
+    margin-bottom: 20px;
+}
+
+.c1 label{
+    font-family: 'Signika', sans-serif;
+}
+
+.out1{
+    background-color: #acdbe2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0vh 35vw;
+    border: 2px solid black;
+}
+
+.out1 h1 {
+    font-family: 'Signika', sans-serif;
+}
+
+.out1 h2 {
+    font-family: 'Signika', sans-serif;
+}
+
+.out1 p {
+    font-family: 'Signika', sans-serif;
+}

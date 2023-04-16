@@ -2,13 +2,17 @@
 <html>
 <head>
     <title>Weather Forecast</title>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <h1>Weather Forecast</h1>
+    <div class="out1">
+        <h1>Weather Forecast</h1>
     <h2>{{ data['name'] }}, {{ data['sys']['country'] }}</h2>
     <p>Weather: {{ data['weather'][0]['description'] }}</p>
-    <p>Temperature: {{ data['main']['temp'] }} &#8451;</p>
+    <p>Temperature: {{ data['main']['temp'] }} K</p>
     <p>Humidity: {{ data['main']['humidity'] }}%</p>
     <p>Wind Speed: {{ data['wind']['speed'] }} m/s</p>
+    </div>
+    
 </body>
 </html>
